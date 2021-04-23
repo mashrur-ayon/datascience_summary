@@ -14,6 +14,9 @@ b < 7 | b >= 6
 
 # Not operation practice
 
-
+# Test on work from Datacamp
+x <- 5
+y <- 7
+!(!(x < 4) & !!!(y > 12))
 
 
