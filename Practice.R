@@ -20,3 +20,10 @@ y <- 7
 !(!(x < 4) & !!!(y > 12))
 
 
+# Testing SD function. 
+
+values <- c(1,3,6,7,NA)
+
+standarddev <- sd(values, TRUE)
+
+standarddev
