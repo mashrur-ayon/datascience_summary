@@ -27,3 +27,21 @@ values <- c(1,3,6,7,NA)
 standarddev <- sd(values, TRUE)
 
 standarddev
+
+args(sd)
+
+
+# writing function 
+
+my_fun <- function(a,b = 1)
+
+  { 
+  if (b==0){
+     
+    return(0)
+  }  
+  a*b + a/b
+}
+
+my_fun(3,0)
+
